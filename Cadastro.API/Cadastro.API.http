@@ -1,6 +1,12 @@
 @Cadastro.API_HostAddress = http://localhost:5150
 
+# Acessar a documentação do Swagger
+GET {{Cadastro.API_HostAddress}}/swagger/index.html
+
+### Obter a documentação JSON do Swagger
+GET {{Cadastro.API_HostAddress}}/swagger/v1/swagger.json
+
+### Exemplo de requisição para um endpoint
 GET {{Cadastro.API_HostAddress}}/weatherforecast/
 Accept: application/json
 
-###
